@@ -9,7 +9,7 @@ const App = () => {
   const [errorMessage, setErrorMessage] = useState(false);
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent the default form submission behavior
+    event.preventDefault();
   
     // Perform validation on the form inputs
     if (!day || !month || !year) {
